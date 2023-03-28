@@ -1,63 +1,60 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Modern Webpage</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Photos</a></li>
-          <li><a href="#">Videos</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="events">
-        <h2>Upcoming Events</h2>
-        <ul>
-          <li>
-            <h3>Event 1</h3>
-            <p>Date: <time datetime="2023-04-01T10:00">April 1, 2023 at 10:00am</time></p>
-            <p>Description: This is the description of event 1.</p>
-          </li>
-          <li>
-            <h3>Event 2</h3>
-            <p>Date: <time datetime="2023-04-03T14:00">April 3, 2023 at 2:00pm</time></p>
-            <p>Description: This is the description of event 2.</p>
-          </li>
-        </ul>
-        <a href="#">View All Events</a>
-      </section>
-      <section class="photos">
-        <h2>Photos</h2>
-        <ul>
-          <li><img src="photo1.jpg" alt="Photo 1"></li>
-          <li><img src="photo2.jpg" alt="Photo 2"></li>
-          <li><img src="photo3.jpg" alt="Photo 3"></li>
-        </ul>
-        <a href="#">View All Photos</a>
-      </section>
-      <section class="videos">
-        <h2>Videos</h2>
-        <ul>
-          <li>
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
-            <p>Description: This is the description of video 1.</p>
-          </li>
-          <li>
-            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
-            <p>Description: This is the description of video 2.</p>
-          </li>
-        </ul>
-        <a href="#">View All Videos</a>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright © 2023</p>
-    </footer>
-  </body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Modern Webpage</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<h1>My Modern Webpage</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<section>
+			<h2>Section 1</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales, ex nec dictum scelerisque, dolor ipsum volutpat arcu, non sagittis elit mi non lectus. Ut volutpat mauris mauris, vel dignissim enim consequat nec. Nulla imperdiet in nunc at efficitur. Duis maximus, nulla vel aliquam congue, ex sapien pulvinar mauris, sit amet sollicitudin quam magna id odio.</p>
+			<a href="#" class="btn">Learn More</a>
+		</section>
+		<section>
+			<h2>Section 2</h2>
+			<ul>
+				<li>List Item 1</li>
+				<li>List Item 2</li>
+				<li>List Item 3</li>
+			</ul>
+			<form>
+				<div class="form-group">
+					<label class="form-label" for="name">Name</label>
+					<input class="form-control" type="text" id="name" name="name" required>
+				</div>
+				<div class="form-group">
+					<label class="form-label" for="email">Email</label>
+					<input class="form-control" type="email" id="email" name="email" required>
+				</div>
+				<div class="form-group">
+					<label class="form-label" for="message">Message</label>
+					<textarea class="form-control" id="message" name="message" required></textarea>
+				</div>
+				<button class="form-submit" type="submit">Send Message</button>
+			</form>
+		</section>
+		<section>
+			<h2>Section 3</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sodales, ex nec dictum scelerisque, dolor ipsum volutpat arcu, non sagittis elit mi non lectus. Ut volutpat mauris mauris, vel dignissim enim consequat nec. Nulla imperdiet in nunc at efficitur. Duis maximus, nulla vel aliquam congue, ex sapien pulvinar mauris, sit amet sollicitudin quam magna id odio.</p>
+			<a href="#" class="btn">Learn More</a>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Modern Webpage. All rights reserved.</p>
+	</footer>
+</body>
 </html>
